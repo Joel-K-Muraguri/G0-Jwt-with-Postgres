@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"github.com/Joel-K-Muraguri/go-jwt/api"
+	
+)
 
 func main() {
-	fmt.Println("GO JWT With Postgres project ")
+
+	api.Run()
+	
 }

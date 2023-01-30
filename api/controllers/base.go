@@ -15,6 +15,10 @@ type Server struct{
 
 func (s *Server) Initialize(){
 
+	s.Router = mux.NewRouter()
+	
+	s.intializeRoutes()
+
 }
 
 
