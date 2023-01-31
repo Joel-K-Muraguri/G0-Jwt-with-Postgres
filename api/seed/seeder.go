@@ -33,6 +33,7 @@ func Load(db *gorm.DB){
 	if err != nil {
 		log.Fatalf("cannot migrate table : %v", err)
 		
+	
 	}
 
 
